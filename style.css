@@ -1,0 +1,59 @@
+h1 {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+}
+    h2{
+        font-style: normal;
+        text-align: center;
+    }
+    h3{
+        font-style:italic;
+        text-align: center;
+    }
+    .subcount{
+        position: center;
+    }
+    .subscribe{
+        color:black;
+    }
+
+    .grid{
+        background-color: #00ffff;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly
+    }
+    .grid img{
+        border: 3px solid black;
+        border-radius: 50px;
+    }
+    .item{
+        border-radius: 30px;
+        background-color: cyan;
+        width:300px;
+        font-style: italic;
+    }
+    .item {
+        position: relative;
+    }
+    
+    .item p{      
+        opacity: .5;
+        
+    }
+    .item:hover p{
+     opacity: 1;
+     background-color: rgb(255, 255, 255);
+     justify-content: stretch;
+    }
+    
+    .item:hover img{
+        transform:scale(1.1) ;
+    }
+    a:link{
+        color:rgb(255, 255, 255);
+    }
+    a:visited{
+        color: rgb(255, 255, 255);
+    }
